@@ -10,9 +10,8 @@
 
 <style type="text/css">
 html, body {
-  height: 100%;
+  
   margin: 0;
-  border: 5px solid white;
   font-family: 'Dancing Script', cursive;
 }
 .landing{
@@ -33,14 +32,15 @@ html, body {
     border-radius: 50%;
     padding: 20px;
     transition: 1s;
-    margin-top: 10%;
+    margin-top: 15%;
     opacity: 0.8;
     animation-name: example;
     animation-duration: 4s;
     background-color: #52b2ab;
 }
 .invited{
-  background-color: rgb(98, 100, 104,0.8)
+  background-color: rgb(98, 100, 104,0.8);
+  margin-top:10%;
 
 }
 .white{
@@ -51,56 +51,25 @@ html, body {
     100% {opacity: 0.8;}
 }
 
-/*countdown*/
-#countdown {
-  width: 100%;
-}
-label {
-  clear: both;
-  display: block;
-}
-#countdown span {
-  background: teal;
-  color: white;
-  font-size: 26px;
-  font-weight: normal;
-  text-align: center;
-  width: 25%;
-  dispaly: block;
-  float: left;
-  border-right: 1px solid #FFF;
-}
-#countdown span:last-child {
-  border-right: 1px solid #313233;
-  
-}
-
-
-
 
 </style>
 
 <body>
-<div class="landing">
+  <div class="landing">
+    <div class="name">
 
-	<div class="name">
 
+      <h1 class="white">Sarah & Dave</h1>
+      <h2 class="white">Tinakilly Country House, Wicklow</h2>
+      <h2 class="white">20/12/2019</h2>
 
-    <h1 class="white">Sarah & Dave</h1>
-    <h2 class="white">Tinakilly Country House, Wicklow</h2>
-    <h2 class="white">20/12/2019</h2>
+    </div>
+
+    <div class="invited">
+      <h1 class="white">You're Invited!</h1>
+      <h2 class="white">More details to follow...</h2>
+    </div>
 
   </div>
-
-  <div class="invited">
-    <h1 class="white">You're Invited!</h1>
-    <h2 class="white">More details to follow...</h2>
-  </div>
-
-</div>
-           
-
-  
-
 </body>
 </html>
